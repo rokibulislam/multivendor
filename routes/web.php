@@ -20,3 +20,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('product','ProductController');
+Route::resource('product','ProductController');
+Route::resource('category','CategoryController');
+Route::resource('order','OrderController');
+Route::resource('tag','TagController');
+Route::resource('cart','CartController');
+Route::resource('invoice','InvoiceController');
+Route::resource('payment','PaymentController');
+Route::resource('shipping','ShippingController');
