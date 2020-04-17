@@ -23,6 +23,6 @@ class Cart extends Model
 
    	protected static function booted() 
    	{
-
+      parent::boot();
    	}
 }

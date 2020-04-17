@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class f extends Model
+class ProductVariationType extends Model
 {
     //
 }
